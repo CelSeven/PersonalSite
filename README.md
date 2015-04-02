@@ -21,3 +21,4 @@ Things to do/learn:
 - Change header image 
 - Fonts
 - Mobile site
+- download resume function
