@@ -1,0 +1,185 @@
+hr {
+	border-color: #dbdbdb;
+}
+body,h1, h2, h3, p, a {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.nav {
+	padding: 10px;
+	border-bottom: 1px solid #dbdbdb;
+}
+
+.nav li {
+	display: inline;
+}
+
+.nav a {
+	color: #5a5a5a;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 20px 10px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	
+}
+.nav img	{
+	height: 45px;
+}
+.nav .pull-left {
+	margin-bottom: 0px;
+}
+.nav .container {
+	margin-left: 0px;
+	padding: 0px;
+}
+
+
+/*------------------------------------------------*/
+
+.tag {
+	background-color: #0267ff;
+}
+
+.tag .container {
+	padding: 30px;
+}
+
+#circletwo {
+	border-radius: 50% 50% 50% 50%;
+	width: 250px;
+	height: 250px;
+	border: 5px solid #fff;
+}
+
+.tag h1 {
+	font-size: 48px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color: #fff;
+
+}
+
+.tag p {
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;	
+}
+
+/*-------------------------------------------------------------*/
+.summary {
+	background-color: #0267ff;
+}
+.col-md-12 {
+	margin: 10px;
+}
+.innersection {
+
+	background-color: #0267ff;
+	padding: 5px;
+}
+.list-group {
+	box-shadow: none;
+	background-color: #fff;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.sectiontitle{
+	color: #fff;
+	font-weight: 700;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+.subsubsection {
+	color: #0267ff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	padding: 5px;
+}
+.list-group {
+	padding: 5px;
+}
+
+.list-group h3 {
+	font-size: 18px;
+	color: #0267ff;
+	
+}
+.list-group h4 {
+	color: #848484;
+	font-size: 16px;
+}
+.list-group p {
+	padding: 0px 0px 0px 50px;
+}
+#progresstitle {
+	color: #4BACEC;
+}
+#endpage a {
+	color: #0267ff;
+}
+/*--------------------------------------------*/
+#education {
+
+	margin-top: 10px;
+}
+
+#languages {
+	margin-top: 10px;
+
+}
+
+#work {
+	margin-top: 10px;
+}
+
+#volunteer {
+	margin-top: 10px;
+}
+
+#competitions {
+	margin-top: 10px;
+}
+
+#activities {
+	margin-bottom: 10px;
+}
+#awards {
+	margin-bottom: 0px;
+	}
+
+#endpage {
+	margin-bottom: 10px;
+}
+	
+.summary h4 img {
+	height: 30px;
+	width: 30px;
+}
+
+.summary h3 a {
+	color: #5a5a5a;
+	font-weight: bold;
+}
+/*-----------------------------------------------*/
+
+.footer {
+	text-align: center;
+	background-color: #fff;
+	border-top: 1px solid #dbdbdb;
+	border-bottom: 1px solid #dbdbdb;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.footer li {
+	display: inline;
+}
+.footer a {
+	color: #5a5a5a;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+
+}
