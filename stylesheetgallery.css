@@ -1,0 +1,99 @@
+
+h1, p, h2, h3 {
+	font-family: 'Open Sans', sans-serif;
+}
+hr {
+	border-color: #dbdbdb;
+}
+ul {
+	list-style-type: none;
+}
+/*---------------------------------------------------*/
+.nav {
+	padding: 10px;
+	border-bottom: 1px solid #dbdbdb;
+}
+
+.nav li {
+	display: inline;
+}
+
+.nav a {
+	color: #5a5a5a;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 20px 10px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	
+}
+.nav img	{
+	height: 45px;
+}
+.nav .pull-left {
+	margin-bottom: 0px;
+}
+.nav .container {
+	margin-left: 0px;
+	padding: 0px;
+}
+
+/*------------------------------------------------*/
+
+#artheader h1 {
+	color: #2C95DA;
+	text-align: center;
+	font-size: 80px;
+	font-weight: 600;
+}
+#artheader p {
+	color: #2C95DA;
+	font-size: 20px;
+	text-align: center;
+}
+
+#artheader {
+	background-color: #fff;
+	background-image: none;
+	margin: 0px;
+}
+
+.digital h2 {
+	color: #2C95DA;
+}
+.digital h3 {
+	font-size: 16px;
+	padding: 30px;
+	color: #2C95DA;
+}
+.digital li img {
+	height: auto;
+	width: 200px;
+}
+.digital li {
+	display: inline;
+}
+
+.digital .description p{
+	padding: 20px;
+}
+
+/*-----------------------------------------------*/
+
+.footer {
+	text-align: center;
+	background-color: #fff;
+	border-top: 1px solid #dbdbdb;
+	border-bottom: 1px solid #dbdbdb;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.footer li {
+	display: inline;
+}
+.footer a {
+	color: #5a5a5a;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+
+}
