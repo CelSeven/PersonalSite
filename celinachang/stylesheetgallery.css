@@ -69,20 +69,29 @@ ul {
 .digital li img {
 	height: auto;
 	width: 200px;
+	border: 1px solid #dbdbdb;
+}
+.digital li:hover img {
+	opacity: 0.5;
 }
 .digital li {
 	display: inline;
+	padding: 3px;
 }
 
 .digital .description p{
 	padding: 20px;
 }
-
+.art-container {
+	border: 1px solid #dbdbdb;
+	background-color: #f7f7f7;
+	padding: 20px;
+}
 /*-----------------------------------------------*/
 
 .footer {
 	text-align: center;
-	background-color: #fff;
+	background-color: #f7f7f7;
 	border-top: 1px solid #dbdbdb;
 	border-bottom: 1px solid #dbdbdb;
 	padding-top: 20px;
