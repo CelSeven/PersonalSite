@@ -22,3 +22,13 @@ Things to do/learn:
 - Fonts
 - Mobile site
 - download resume function
+- add social media icons to nav bar
+- clean up design (colours/layout)
+- add programming projects page
+- update Contact (email) function - PHP?
+
+Dyanamic (to learn and create)
+- Gallery slider - or hover + zoom?
+- dropdown menu (sub-menu) for Gallery 
+- programming projects (ex. Play the game - play on the website)
+- Banner slider (onclick --> push current banner to the side to reveal next banner.. margin?)
