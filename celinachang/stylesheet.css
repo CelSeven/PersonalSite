@@ -123,7 +123,7 @@ body,h1, h2, h3, p, a {
 	background-image: none;
 	margin: 0px;
 }
-.gallery .container a {
+.gallery .full-gallery-link a {
 	color: #2C95DA;
 	font-weight: 600;
 	margin: 20px;
@@ -145,9 +145,13 @@ body,h1, h2, h3, p, a {
 	border-radius: 50% 50% 50% 50%;	
 	margin: 30px;
 	border: 5px solid #fff;
+	background-color: #fff;
+}
+.image:hover img {
+	opacity: 0.7;
 }
 
-.image img {
+.image a img {
 	height: 350px;
 	width: auto;
 }
