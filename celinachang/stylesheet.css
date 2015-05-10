@@ -11,16 +11,26 @@ body,h1, h2, h3, p, a {
 
 .nav li {
 	display: inline;
+	padding: 10px;
 }
 
+.nav .button-hover:hover {
+	background-color: #2C95DA;
+	border-radius: 3px;
+	padding: 10px;
+}
+
+.nav .button-hover:hover a{
+	color: white;
+	text-decoration: none;
+}
 .nav a {
 	color: #5a5a5a;
 	font-size: 12px;
 	font-weight: bold;
-	padding: 20px 10px;
+	padding: 5px;
 	text-transform: uppercase;
 	font-family: sans-serif;
-	
 }
 .nav img	{
 	height: 45px;
@@ -72,6 +82,30 @@ body,h1, h2, h3, p, a {
 	border-radius: 50% 50% 50% 50%;
 	height: 70%;
 	width: 70%;
+}
+
+#update-button {
+	background-color: white;
+	border-radius: 50px;
+	border: none;
+	font-size: 16px;
+	font-weight: 600;
+  padding: 10px;
+  color: #2C95DA;
+}
+
+.update p {
+  font-size: 16px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.update a {
+	color: white;
+}
+
+#update-button:hover {
+	background-color: #2C95DA;
+	color: white;
 }
 .intro-title {
 	padding: 0px;
