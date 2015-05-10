@@ -4,7 +4,7 @@ Personal website built with HTML/CSS
 
 UPDATE: First JavaScript/JQuery element implemented! 
   - Update button added to front page that toggles update details
-  - Show/Hide content function for Traditional/Digital/Motion buttons
+  - Show/Hide content function for Traditional/Digital/Motion buttons in Gallery
 
 The website is completely static at the moment. 
 Currently, I am self-learning Javascript and JQuery to make my website dynamic. Stay tuned!
