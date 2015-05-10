@@ -8,6 +8,9 @@ hr {
 ul {
 	list-style-type: none;
 }
+li {
+  cursor: pointer;
+}
 /*---------------------------------------------------*/
 .nav {
 	padding: 10px;
@@ -16,16 +19,26 @@ ul {
 
 .nav li {
 	display: inline;
+	padding: 10px;
 }
 
+.nav .button-hover:hover {
+	background-color: #2C95DA;
+	border-radius: 3px;
+	padding: 10px;
+}
+
+.nav .button-hover:hover a{
+	color: white;
+	text-decoration: none;
+}
 .nav a {
 	color: #5a5a5a;
 	font-size: 12px;
 	font-weight: bold;
-	padding: 20px 10px;
+	padding: 5px;
 	text-transform: uppercase;
 	font-family: sans-serif;
-	
 }
 .nav img	{
 	height: 45px;
@@ -39,6 +52,21 @@ ul {
 }
 
 /*------------------------------------------------*/
+.tabs li {
+  background-color: white;
+  color: #2C95DA;
+  padding: 10px 15px 10px 15px;
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.tabs li:hover {
+  background-color: #2C95DA;
+  color: white;
+  border-radius: 3px;
+}
 
 #artheader h1 {
 	color: #2C95DA;
@@ -46,7 +74,16 @@ ul {
 	font-size: 80px;
 	font-weight: 600;
 }
-#artheader p {
+#artheader .nav li {
+	display: inline;
+}
+
+#artheader li a {
+	color: #2C95DA;
+	font-size: 20px;
+	text-align: center;
+}
+#artheader li p {
 	color: #2C95DA;
 	font-size: 20px;
 	text-align: center;
@@ -57,14 +94,20 @@ ul {
 	background-image: none;
 	margin: 0px;
 }
-
+.digital {
+  padding-bottom: 20px;
+}
 .digital h2 {
 	color: #2C95DA;
+  padding: 30px;
+  font-weight: 600;
 }
 .digital h3 {
 	font-size: 16px;
-	padding: 30px;
 	color: #2C95DA;
+}
+#digital-paintings {
+  padding-top: 20px;
 }
 .digital li img {
 	height: auto;
