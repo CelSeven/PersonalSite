@@ -8,16 +8,18 @@
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
 		<link rel="shortcut icon" href="/celinachang/C7.ico">
-
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+		
 	</head>
 	<body>
 		<div class="nav">
 			<div class="container">
 				<ul class="pull-left">
 					<li><a href="http://celinachang.pancakeapps.com/index.html"><img src="C7.png"/></a></li>
-					<li><a href="profile.html">Profile</a></li>
-					<li><a href="gallery.html">Gallery</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li class="button-hover"><a href="profile.html">Profile</a></li>
+					<li class="button-hover"><a href="gallery.html">Gallery</a></li>
+					<li class="button-hover"><a href="contact.html">Contact</a></li>
 				</ul>
 			</div>	
 		</div>
@@ -26,14 +28,20 @@
 		<div id="artheader">
 			<div class="container">
 				<h1>ART PORTFOLIO</h1>
-				<p>Digital | Traditional | Motion</p>
+				<div class="nav">
+          <center>
+            <ul class="tabs">
+              <li id="first">Digital</li>
+					    <li id="second">Traditional</li>
+					    <li id="third">Motion</li>
+            </ul>
+        </div><center>				
 			</div>
 		</div>
 		
 		<div class="container">
-			<hr>
 		</div>
-		
+		<div class="first">
 		<div class="digital">
 			<div class="container">
 				<center><h2>DIGITAL</h2></center>
@@ -54,7 +62,7 @@
 					</ul>
 				</div>
 				
-				<h3>&nbsp;&nbsp;&nbsp;&nbsp;DIGITAL PAINTINGS</h3>
+        <h3 id="digital-paintings">&nbsp;&nbsp;&nbsp;&nbsp;DIGITAL PAINTINGS</h3>
 				<div class="art-container">
 					<ul class="enlarge">
 						<li><a href="http://fc04.deviantart.net/fs70/o/2014/303/b/a/ba4f0e1d3cbcd7bbae68f6c44bef8646.png"><img src="http://fc04.deviantart.net/fs70/o/2014/303/b/a/ba4f0e1d3cbcd7bbae68f6c44bef8646.png"/></a></li>
@@ -68,8 +76,9 @@
 				</div>
 			</div>
 		</div>
+		</div>
 		
-		
+		<div class="second">
 		<div class="digital">
 			<div class="container">
 				<center><h2 style="padding:30px">TRADITIONAL</h2></center>
@@ -89,7 +98,9 @@
 				</div>
 			</div>
 		</div>
+		</div>
 		
+		<div class="third">
 		<div class="digital">
 			<div class="container">
 				<center><h2 style="padding-bottom:30px">MOTION</h2></center>
@@ -102,6 +113,7 @@
 				</ul>
 			</center>
 			</div>
+		</div>
 		</div>
 		
 		
@@ -130,6 +142,7 @@
 				</div>
 			</div>
 		</div>
+		
 		
 	</body>
 </html>
