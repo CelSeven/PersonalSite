@@ -26,7 +26,7 @@ Things to do/learn:
 - Fonts
 - Mobile site
 - download resume function
-- add social media icons to nav bar
+- add social media icons to nav bar (DONE)
 - clean up design (colours/layout)
 - add programming projects page
 - update Contact (email) function - PHP?
